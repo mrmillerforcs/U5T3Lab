@@ -5,6 +5,7 @@ public class Car  {
     public Car(String model, int miles) {
         this.model = model;
         this.miles = miles;
+        System.out.println("hello");
     }
 
     public String toString() {
